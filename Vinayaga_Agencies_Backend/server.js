@@ -9,7 +9,7 @@ import orderRoutes from './routes/orderRoutes.js';
 import uploadRoutes from './routes/uploadRoutes.js';
 import { notFound, errorHandler } from './middleware/errorMiddleware.js';
 
-// Load environment variables
+// Load environment variables 
 dotenv.config();
 
 // Initialize express app
